@@ -8,13 +8,13 @@ export function NavBar() {
         <div className="space-x-4">
           <a
             to="/login"
-            className="px-4 py-2 rounded-md hover:bg-gray-100 transition-colors"
+            className="px-4 py-2 font-semibold rounded-md hover:bg-gray-100 transition-colors"
           >
             Log in
           </a>
           <a
             to="/signup"
-            className="px-4 py-2 rounded-md hover:bg-gray-100 transition-colors"
+            className="px-4 py-2 font-semibold rounded-md hover:bg-gray-100 transition-colors"
           >
             Sign up
           </a>
