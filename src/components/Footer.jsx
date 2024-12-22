@@ -19,13 +19,13 @@ const footerSections = {
   community: {
     title: "Community",
     links: [
-      { label: "Brainly Community", href: "#" },
-      { label: "Brainly for Schools & Teachers", href: "#" },
-      { label: "Brainly for Parents", href: "#" },
-      { label: "Brainly Scholarships", href: "#" },
+      { label: "HOBH Community", href: "#" },
+      { label: "HOBH for Schools & Teachers", href: "#" },
+      { label: "HOBH for Parents", href: "#" },
+      { label: "HOBH Scholarships", href: "#" },
       { label: "Honor Code", href: "#" },
       { label: "Community Guidelines", href: "#" },
-      { label: "Insights: The Brainly Blog", href: "#" },
+      { label: "Insights: The HOBH Blog", href: "#" },
       { label: "Become a Volunteer", href: "#" },
     ],
   },
@@ -95,7 +95,7 @@ export function Footer() {
               </a>
             </div>
             <button className="flex items-center gap-2 bg-transparent border border-gray-700 rounded px-3 py-2 text-gray-400 w-fit">
-              Brainly.com
+              hboh.com
               <ChevronDown className="w-4 h-4" />
             </button>
           </div>

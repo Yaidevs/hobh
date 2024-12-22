@@ -14,7 +14,7 @@ function RatingStars() {
         >
           <path
             d="M10 1L13 7L19 7.75L14.5 12.5L15.5 19L10 16L4.5 19L5.5 12.5L1 7.75L7 7L10 1Z"
-            fill="#CDFF7B"
+            fill="#412D88"
           />
         </svg>
       ))}
@@ -28,7 +28,7 @@ function RatingStars() {
       >
         <path
           d="M10 1L13 7L19 7.75L14.5 12.5L15.5 19L10 16L4.5 19L5.5 12.5L1 7.75L7 7L10 1Z"
-          fill="#CDFF7B"
+          fill="#412D88"
           fillOpacity="0.5"
         />
       </svg>
