@@ -34,7 +34,7 @@ export function Login() {
         </p>
         <button
           onClick={() => toast.dismiss()}
-          className="mt-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+          className="mt-2 px-4 py-2 bg-primary text-primary-text rounded-lg hover:bg-blue-700"
         >
           OK
         </button>
@@ -92,7 +92,7 @@ export function Login() {
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-3xl font-semibold"
+            className="w-full bg-primary text-primary-text hover:bg-blue-700 py-2 rounded-3xl font-semibold"
           >
             log in
           </button>
@@ -104,13 +104,13 @@ export function Login() {
               />
               <span className="ml-2">Keep me logged in</span>
             </label>
-            <a href="#" className="text-sm font-semibold text-blue-600">
+            <a href="#" className="text-sm font-semibold text-primary">
               Forgot your password?
             </a>
           </div>
           <p className="text-center mt-6 text-sm text-gray-600">
             Don't have an account?{" "}
-            <Link to="/signup" className="text-blue-600 font-semibold">
+            <Link to="/signup" className="text-primary font-semibold">
               Sign up
             </Link>
           </p>

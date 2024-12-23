@@ -7,7 +7,7 @@ export function SignUp() {
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="p-8 rounded-lg w-full max-w-md text-center">
         {/* Logo */}
-        <Link to='/' >
+        <Link to="/">
           <img
             src={logo}
             alt="Logo"
@@ -45,7 +45,7 @@ export function SignUp() {
           </Link>
 
           <Link>
-            <button className="flex items-center justify-center w-full py-3 rounded-3xl bg-blue-600 text-white hover:bg-blue-700">
+            <button className="flex items-center justify-center w-full py-3 rounded-3xl bg-primary text-white hover:bg-blue-700">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
                 alt="Facebook Logo"
@@ -59,17 +59,17 @@ export function SignUp() {
         {/* Footer */}
         <p className="mt-6 text-sm text-gray-600">
           Already have an account?
-          <Link to="/login" href="#" className="text-blue-600 font-semibold">
+          <Link to="/login" href="#" className="text-primary font-semibold">
             Log in
           </Link>
         </p>
         <p className="mt-8 text-xs text-gray-500">
           By creating an account, you accept the
-          <a href="#" className="text-blue-600 hover:underline">
+          <a href="#" className="text-primary hover:underline">
             Brainly Terms of Service
           </a>
           &
-          <a href="#" className="text-blue-600 hover:underline">
+          <a href="#" className="text-primary hover:underline">
             Privacy Policy
           </a>
           .
