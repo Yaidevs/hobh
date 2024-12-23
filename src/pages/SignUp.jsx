@@ -45,7 +45,7 @@ export function SignUp() {
           </Link>
 
           <Link>
-            <button className="flex items-center justify-center w-full py-3 rounded-3xl bg-primary text-white hover:bg-blue-700">
+            <button className="flex items-center justify-center w-full py-3 rounded-3xl bg-primary text-white">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
                 alt="Facebook Logo"
