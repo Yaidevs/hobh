@@ -9,7 +9,7 @@ export function SignUp() {
         {/* Logo */}
         <img
           src={logo} // Replace with the Brainly logo URL
-          alt="Brainly Logo"
+          alt="Logo"
           className="mx-auto mb-6 w-36 h-20 rounded-2xl"
         />
 

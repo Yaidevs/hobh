@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "../assets/logo2.jpg";
 import { Link } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -33,7 +34,7 @@ export function Login() {
         </p>
         <button
           onClick={() => toast.dismiss()}
-          className="mt-2 px-4 py-1 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+          className="mt-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
         >
           OK
         </button>
@@ -50,7 +51,22 @@ export function Login() {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="p-8 rounded-lg w-full max-w-sm">
+      <div className="p-8 rounded-lg w-full max-w-sm bg-white shadow-md">
+        {/* Top Section with Image and Text */}
+        <div className="text-center mb-8">
+        <img
+          src={logo} // Replace with the Brainly logo URL
+          alt="Logo"
+          className="mx-auto mb-6 w-36 h-20 rounded-2xl"
+        />
+          <h1 className="text-xl font-bold mt-4">Get more Answers for FREE</h1>
+          <p className="text-sm text-gray-600">
+            Scan questions with the app, get community help, find expert
+            textbook explanations, and see instant step-by-step math solutions.
+          </p>
+        </div>
+
+        {/* Login Form */}
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <input
@@ -74,7 +90,7 @@ export function Login() {
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-3xl font-medium"
+            className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-3xl font-semibold"
           >
             log in
           </button>
