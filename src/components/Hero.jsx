@@ -15,7 +15,7 @@ export function Hero() {
           with Have On Books Hub, the Leading Books Hub In Ghana.
         </p>
 
-        <button className="bg-primary text-primary-text px-8 py-4 rounded-full text-lg font-semibold transition-colors">
+        <button className="bg-primary text-primary-text px-10 py-2 rounded-full text-lg font-semibold transition-colors">
           Sign up for free
         </button>
 

@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom';
 import logo from '../assets/logo2.jpg';
+
 
 export function NavBar() {
   return (
@@ -8,12 +10,12 @@ export function NavBar() {
           <img src={logo} className="w-24 h-16" alt="Logo" />
         </a>
         <div className="space-x-2">
-          <a
-            href="/login"
+          <Link
+            to='/login'
             className="px-4 py-2 font-medium rounded-md hover:bg-gray-100 transition-colors"
           >
             Log in
-          </a>
+          </Link>
           <a
             href="/signup"
             className="px-4 py-2 font-medium rounded-md hover:bg-gray-100 transition-colors"
