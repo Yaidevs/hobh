@@ -51,7 +51,7 @@ export function Login() {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="p-8 rounded-lg w-full max-w-sm bg-white shadow-md">
+      <div className="p-8 rounded-lg w-full max-w-sm">
         {/* Top Section with Image and Text */}
         <div className="text-center mb-8">
         <img
