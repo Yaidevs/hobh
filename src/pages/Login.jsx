@@ -54,11 +54,13 @@ export function Login() {
       <div className="p-8 rounded-lg w-full max-w-sm">
         {/* Top Section with Image and Text */}
         <div className="text-center mb-8">
-        <img
-          src={logo} // Replace with the Brainly logo URL
-          alt="Logo"
-          className="mx-auto mb-6 w-36 h-20 rounded-2xl"
-        />
+          <Link to="/">
+            <img
+              src={logo}
+              alt="Logo"
+              className="mx-auto mb-6 w-36 h-20 rounded-2xl"
+            />
+          </Link>
           <h1 className="text-xl font-bold mt-4">Get more Answers for FREE</h1>
           <p className="text-sm text-gray-600">
             Scan questions with the app, get community help, find expert

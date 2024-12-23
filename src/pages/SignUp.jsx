@@ -7,12 +7,13 @@ export function SignUp() {
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="p-8 rounded-lg w-full max-w-md text-center">
         {/* Logo */}
-        <img
-          src={logo} // Replace with the Brainly logo URL
-          alt="Logo"
-          className="mx-auto mb-6 w-36 h-20 rounded-2xl"
-        />
-
+        <Link to='/' >
+          <img
+            src={logo}
+            alt="Logo"
+            className="mx-auto mb-6 w-36 h-20 rounded-2xl"
+          />
+        </Link>
         {/* Heading */}
         <h1 className="text-2xl font-bold mb-2">Get more Answers for FREE</h1>
         <p className="text-gray-600 text-sm mb-6">
