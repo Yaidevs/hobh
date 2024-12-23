@@ -25,26 +25,36 @@ export function Login() {
 
     // Trigger the success toast
     toast.success(
-      <div className="flex flex-col items-center">
-        <p className="font-semibold text-center">
+      <div className="flex flex-col items-center justify-center h-full">
+        {/* Bold Message */}
+        <p className="text-2xl font-bold text-center mb-4">
           You are added to the waiting list!
         </p>
-        <p className="text-sm text-gray-600 text-center">
+
+        {/* Large Checkmark */}
+        <div className="text-primary text-6xl mb-4">✅</div>
+
+        {/* Medium Subtitle */}
+        <p className="text-base text-gray-600 text-center mb-6">
           We will notify you soon.
         </p>
+
+        {/* OK Button */}
         <button
           onClick={() => toast.dismiss()}
-          className="mt-2 px-4 py-2 bg-primary text-primary-text rounded-lg hover:bg-blue-700"
+          className="px-6 py-2 bg-primary text-primary-text rounded-lg"
         >
           OK
         </button>
       </div>,
       {
-        icon: "✅",
+        icon: false, // Disable default icon
         hideProgressBar: true,
         closeOnClick: false,
         draggable: false,
-        autoClose: false,
+        autoClose: true,
+        className:
+          "h-[100vh] flex items-center justify-center bg-white shadow-md rounded-lg",
       }
     );
   };
@@ -77,7 +87,7 @@ export function Login() {
               value={formData.username}
               onChange={handleInputChange}
               placeholder="Username or email"
-              className="w-full px-4 py-2 border rounded-3xl focus:ring-2 focus:ring-blue-500 focus:outline-none bg-gray-100"
+              className="w-full px-4 py-2 border rounded-3xl focus:ring-2 focus:ring-[#412D88] focus:outline-none bg-gray-100"
             />
           </div>
           <div className="mb-4">
@@ -87,7 +97,7 @@ export function Login() {
               value={formData.password}
               onChange={handleInputChange}
               placeholder="Password"
-              className="w-full px-4 py-2 border rounded-3xl focus:ring-2 focus:ring-blue-500 focus:outline-none bg-gray-100"
+              className="w-full px-4 py-2 border rounded-3xl focus:ring-2 focus:ring-[#412D88] focus:outline-none bg-gray-100"
             />
           </div>
           <button

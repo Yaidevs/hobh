@@ -10,7 +10,7 @@ export default defineConfig({
     },
   },
   server: {
-    // Use Render's dynamic PORT environment variable, fallback to 3000 in local development
+    // Use Render's dynamic PORT environment variable, fal lback to 3000 in local development
     port:3000,
     host: "0.0.0.0", // Listen on all network interfaces, necessary for cloud deployments like Render
   },
