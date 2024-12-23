@@ -3,8 +3,8 @@ import img1 from "../assets/crush_your_schoolwork_custom_font.svg";
 export function Hero() {
   return (
     <div className="relative overflow-hidden pt-24">
-      <div className="absolute top-20 left-20 w-16 h-16 bg-green-400 rounded-full blur-lg animate-float" />
-      <div className="absolute top-40 right-20 w-16 h-16 bg-blue-400 rounded-full blur-lg animate-float-delayed" />
+      {/* <div className="absolute top-20 left-20 w-16 h-16 bg-green-400 rounded-full blur-lg animate-float" />
+      <div className="absolute top-40 right-20 w-16 h-16 bg-blue-400 rounded-full blur-lg animate-float-delayed" /> */}
 
       <div className="max-w-7xl mx-auto px-6 py-20 text-center relative z-10">
         <img src={img1} />
