@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/logo2.jpg";
+import logo from "../assets/logo2.png";
 import { Link } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

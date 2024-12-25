@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo2.jpg";
+import logo from "../assets/logo2.png";
 import { Link } from "react-router-dom";
 
 export function SignUp() {
@@ -26,7 +26,7 @@ export function SignUp() {
           <Link to="/login" className="mb-2">
             <button className="mb-5 flex items-center justify-center w-full py-3 rounded-3xl border border-gray-300 bg-gray-100 hover:bg-gray-200">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+                src="https://icons8.com/vue-static/landings/app/icons/logo/google.svg"
                 alt="Google Logo"
                 className="w-5 h-5 mr-3"
               />
